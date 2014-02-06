@@ -1,0 +1,24 @@
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/CroupApp.ap_ \
+ : /Users/Tom/appss/croupapp/croupapp/platforms/android/res/drawable/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/res/drawable-hdpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/res/drawable-ldpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/res/drawable-mdpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/res/drawable-xhdpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/res/values/strings.xml \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/res/xml/config.xml \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/res/drawable/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/res/drawable-hdpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/res/drawable-ldpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/res/drawable-mdpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/res/drawable-xhdpi/icon.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/cordova.js \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/cordova_plugins.js \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/css \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/img \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/index.html \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/js \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/css/index.css \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/img/logo.png \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/assets/www/js/index.js \
+/Users/Tom/appss/croupapp/croupapp/platforms/android/bin/AndroidManifest.xml \
