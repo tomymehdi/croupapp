@@ -174,14 +174,18 @@ var app = {
         FacebookInAppBrowser.logout(callback);
     });
 
+    $('#memberView').click(function() {
+        $.mobile.changePage($("#member"), { transition: "slide" });
+    });
+
 
     //CHAT
 
-    idString = new Date().getSeconds();
-    var peer = new Peer(idString, {host: 'localhost', port: 9000, debug: 3});
-    peer.on('open', function(id) {
-      console.log('My peer ID is: ' + id);
-    });
+    //idString = new Date().getSeconds();
+    //var peer = new Peer(idString, {host: 'localhost', port: 9000, debug: 3});
+    //peer.on('open', function(id) {
+    //  console.log('My peer ID is: ' + id);
+    //});
     /*
     var conn = peer.connect(46);
     conn.on('open', function() {
