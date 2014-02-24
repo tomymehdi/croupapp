@@ -16,7 +16,6 @@
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/cordova.js \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/index.html \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/views \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/inappbrowser.js \
@@ -249,7 +248,6 @@
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1/images/icons-png/alert-white.png \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1/images/icons-png/forbidden-black.png \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1/images/icons-png/location-white.png \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/views/member.html \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/facebook_login_buttons \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/logo.png \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/sign-in-with-twitter-gray.png \
@@ -268,7 +266,6 @@
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/facebook_login_buttons/active_200.png \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap.css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap-theme.css \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/member.css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap.min.css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap-theme.min.css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/index.css \

@@ -8,11 +8,11 @@
 
         <!--/*CSS*/ -->
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.csss">
         <title>Index</title>
     </head>
     <body>
-        <div class="app" hred="#main">
+        <div class="app" id="main">
             <!-- cambiar el min height 50 a nada -->
             <nav class="navbar navbar-default" role="navigation">
                 <ul class="nav nav-pills pull-left">
@@ -84,15 +84,47 @@
 
         </div>
 
+        <div data-role="page" id="member">
+
+            <!-- cambiar el min height 50 a nada -->
+            <nav class="navbar navbar-default" role="navigation">
+                <ul class="nav nav-pills pull-left">
+                    <li>
+                        <a href="#">
+                        <span class="glyphicon glyphicon-align-justify"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills pull-right">
+                    <li>
+                        <a hred='#'>
+                        <span class="glyphicon glyphicon-search"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="member_photos"></div>
+            <div id="member_data">
+            </div>
+            <div class="h_list" id="common_friends">
+                <div class="round_button"></div>
+                <div class="round_button"></div>
+                <div class="round_button"></div>
+                <div class="round_button"></div>
+                <div class="round_button"></div>
+            </div>
+            <div class="social_networks_list">
+            </div>
+            
+        </div>
+
         <!--/*SCRIPTS*/ -->
-        <script type="text/javascript" src="js/jQuery.js"></script>
         <script type="text/javascript" src="js/inappbrowser.js"></script>
         <script type="text/javascript" src="js/peer.js"></script>
         <script type="text/javascript" src="js/peer.min.js"></script>
-        
         <script type="text/javascript" src="js/js.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.js"></script>
         <script type="text/javascript">
             app.initialize();

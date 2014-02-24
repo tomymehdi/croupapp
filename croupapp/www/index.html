@@ -8,58 +8,14 @@
 
         <!--/*CSS*/ -->
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.csss">
         <title>Index</title>
     </head>
     <body>
-        <div class="app" hred="#main">
-            <!-- cambiar el min height 50 a nada -->
-            <nav class="navbar navbar-default" role="navigation">
-                <ul class="nav nav-pills pull-left">
-                    <li class="active">
-                        <a href="#">
-                        <span class="glyphicon glyphicon-envelope"></span>
-                        <span class="badge">3</span></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <span class="glyphicon glyphicon-align-center"></span>
-                        <span class="badge">2</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <span class="glyphicon glyphicon-user"></span>
-                        <span class="glyphicon glyphicon-user"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a hred='#'>
-                        <span class="glyphicon glyphicon-user"></span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-pills pull-right">
-                    <li>
-                        <a hred='#'>
-                        <span class="glyphicon glyphicon-globe"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="app" id="main">
+            
 
-            <ul class="list-group text-left">
-                <li class="list-group-item">
-                    Marc
-                    <span class="badge">14</span>
-                </li>
-                <li class="list-group-item">
-                    Terror
-                    <span class="badge">14</span>
-                </li>
-            </ul>
-
+    
 
             <!-- Para la pagina si no logeaste todavia -->
             <h1>Croupapp</h1>
@@ -72,26 +28,27 @@
             <div id="fb-root"></div>
             <fb:login-button id="signInFacebook2" show-faces="true" width="500" max-rows="1"></fb:login-button>
             <div>
-                <button type="button" id="signInFacebook">Login to Facebook</button>
+                <a id="signInFacebook">Login to Facebook</a>
             </div>
             <div>
-                <button type="button" id="logoutFacebook">Logout from Facebook</button>
+                <a id="logoutFacebook">Logout from Facebook</a>
             </div>
             <div>
-                <button type="button" id="memberView">Member view</button>
+                <a data-role="button" id="changePageButton">Member view</a>
             </div>
-            <h1>Chat</h1>
 
         </div>
 
+        <div data-role="page" id="member">
+            
+        </div>
+
         <!--/*SCRIPTS*/ -->
-        <script type="text/javascript" src="js/jQuery.js"></script>
         <script type="text/javascript" src="js/inappbrowser.js"></script>
         <script type="text/javascript" src="js/peer.js"></script>
         <script type="text/javascript" src="js/peer.min.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.js"></script>
         <script type="text/javascript">
             app.initialize();
