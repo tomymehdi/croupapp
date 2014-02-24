@@ -24,9 +24,7 @@
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/peer.js \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1 \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/js.js \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/bootstrap.min.js \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jQuery.js \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/bootstrap.js \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1/jquery.mobile.inline-svg-1.4.1.min.css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.js \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/js/jquery.mobile-1.4.1/jquery.mobile.icons-1.4.1.min.css \
@@ -264,9 +262,5 @@
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/facebook_login_buttons/pressed_600.png \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/facebook_login_buttons/active_600@2x.png \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/img/facebook_login_buttons/active_200.png \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap.css \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap-theme.css \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap.min.css \
-/home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/bootstrap-theme.min.css \
 /home/user/apps/croupapp/croupapp/platforms/android/assets/www/css/index.css \
 /home/user/apps/croupapp/croupapp/platforms/android/bin/AndroidManifest.xml \

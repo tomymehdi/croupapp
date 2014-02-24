@@ -8,121 +8,42 @@
 
         <!--/*CSS*/ -->
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" href="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.csss">
+        <link rel="stylesheet" href="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.css">
         <title>Index</title>
     </head>
-    <body>
-        <div class="app" id="main">
-            <!-- cambiar el min height 50 a nada -->
-            <nav class="navbar navbar-default" role="navigation">
-                <ul class="nav nav-pills pull-left">
-                    <li class="active">
-                        <a href="#">
-                        <span class="glyphicon glyphicon-envelope"></span>
-                        <span class="badge">3</span></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <span class="glyphicon glyphicon-align-center"></span>
-                        <span class="badge">2</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <span class="glyphicon glyphicon-user"></span>
-                        <span class="glyphicon glyphicon-user"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a hred='#'>
-                        <span class="glyphicon glyphicon-user"></span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-pills pull-right">
-                    <li>
-                        <a hred='#'>
-                        <span class="glyphicon glyphicon-globe"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <ul class="list-group text-left">
-                <li class="list-group-item">
-                    Marc
-                    <span class="badge">14</span>
-                </li>
-                <li class="list-group-item">
-                    Terror
-                    <span class="badge">14</span>
-                </li>
-            </ul>
-
-
-            <!-- Para la pagina si no logeaste todavia -->
-            <h1>Croupapp</h1>
-            <h1>GPS</h1>
-            <button type="button" id="getGpsPos">Click Me For Get GPS pos!</button>
-            <div id="gpsPos">
-                HEY
-            </div>
-            <h1>Facebook</h1>
-            <div id="fb-root"></div>
-            <fb:login-button id="signInFacebook2" show-faces="true" width="500" max-rows="1"></fb:login-button>
-            <div>
-                <button type="button" id="signInFacebook">Login to Facebook</button>
-            </div>
-            <div>
-                <button type="button" id="logoutFacebook">Logout from Facebook</button>
-            </div>
-            <div>
-                <button type="button" id="memberView">Member view</button>
-            </div>
-            <h1>Chat</h1>
-
-        </div>
-
-        <div data-role="page" id="member">
-
-            <!-- cambiar el min height 50 a nada -->
-            <nav class="navbar navbar-default" role="navigation">
-                <ul class="nav nav-pills pull-left">
-                    <li>
-                        <a href="#">
-                        <span class="glyphicon glyphicon-align-justify"></span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-pills pull-right">
-                    <li>
-                        <a hred='#'>
-                        <span class="glyphicon glyphicon-search"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div id="member_photos"></div>
-            <div id="member_data">
-            </div>
-            <div class="h_list" id="common_friends">
-                <div class="round_button"></div>
-                <div class="round_button"></div>
-                <div class="round_button"></div>
-                <div class="round_button"></div>
-                <div class="round_button"></div>
-            </div>
-            <div class="social_networks_list">
-            </div>
+    <body>            
+        <div data-role="page" id="page1">      
+            <div data-role="header">         
+                <h1>
+                    Page 1
+                </h1>     
+            </div><!-- /header -->      
             
-        </div>
+            <div data-role="content">
+                <a id="changePageButton" data-role="button">Change Page!</a>
+            </div><!-- /content -->      
+            
+            <div data-role="footer"></div> 
+        </div><!-- /page -->  
+
+        <div data-role="page" id="page2">         
+            <div data-role="header">    
+               <h1>
+                  Page 2
+                </h1>     
+            </div><!-- /header -->         
+            
+            <div data-role="content">  
+                <p>Hooray for page 2!</p>
+            </div><!-- /content -->         
+            
+            <div data-role="footer"></div><!-- /fotoer -->     
+        </div><!-- /page --> 
 
         <!--/*SCRIPTS*/ -->
         <script type="text/javascript" src="js/inappbrowser.js"></script>
-        <script type="text/javascript" src="js/peer.js"></script>
         <script type="text/javascript" src="js/peer.min.js"></script>
+        <script type="text/javascript" src="js/jQuery.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.4.1/jquery.mobile-1.4.1.min.js"></script>

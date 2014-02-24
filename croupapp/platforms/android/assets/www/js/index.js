@@ -174,9 +174,12 @@ var app = {
         FacebookInAppBrowser.logout(callback);
     });
 
-    $('#memberView').click(function() {
-        $.mobile.changePage($("#member"), { transition: "slide" });
+    $(function() {
+      $("#changePageButton").click(function() {
+          $.mobile.changePage("#page2");
+      });        
     });
+
 
 
     //CHAT
